@@ -48,11 +48,15 @@ Route::middleware(['web', 'auth', 'role:admin|super-admin'])
 ```
 
 ##### Create new Admin route
-```touch routes/Admin.php```
+```
+touch routes/Admin.php
+```
 
 ##### Create your first index route name
 Create new controller
-``` php artisan make:controller Admin/DashboardController ```
+``` 
+php artisan make:controller Admin/DashboardController 
+```
 
 ##### Add new route to Admin route
 ```php
