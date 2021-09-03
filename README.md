@@ -1,0 +1,1 @@
+# laravelscope-docs
